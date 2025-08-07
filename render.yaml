@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: taskliste-backend
-    runtime: java
-    buildCommand: "./mvnw clean package"
-    startCommand: "java -jar target/*.jar"
-    plan: free
-    branch: main
-    region: frankfurt

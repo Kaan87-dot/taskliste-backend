@@ -16,12 +16,13 @@ public class Task {
 
     public Task() {}
 
-    public Task(Long id, String title, String description, boolean done) {
-        this.id = id;
+    public Task(String title, String description, boolean done) {
         this.title = title;
         this.description = description;
         this.done = done;
     }
+
+
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }

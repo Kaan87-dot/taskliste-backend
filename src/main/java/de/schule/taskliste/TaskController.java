@@ -24,3 +24,12 @@ public class TaskController {
         return repo.save(task);
     }
 }
+
+// Neue Klasse außerhalb von TaskController:
+@RestController
+class RootController {
+    @GetMapping("/")
+    public String root() {
+        return "Taskliste Backend läuft!";
+    }
+}

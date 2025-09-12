@@ -13,6 +13,7 @@ public class Task {
     private String title;
     private String description;
     private boolean done;
+    private LocalDate dueDate;
 
     public Task() {}
 

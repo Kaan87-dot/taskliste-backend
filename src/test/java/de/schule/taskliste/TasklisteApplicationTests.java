@@ -8,6 +8,6 @@ class TasklisteApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// Test prüft nur, dass Spring ApplicationContext startet
 	}
-
 }
